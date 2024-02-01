@@ -1,0 +1,90 @@
+.logo{
+    border-radius: 50%;
+    height: 60px;
+    width: 80px;
+}
+
+
+.div1{
+    width:45%;
+    float: left;
+    height:350px;
+    margin-left: 5px;
+    margin-top: 5px;
+    padding-left: 10px;
+    transition:1s;
+}
+.div2{
+    width:45%;
+    float: left;
+    height:350px;
+    margin-left:5px;
+    margin-top: 5px;
+    padding-left: 10px;
+    transition:1s;
+}
+.div1:hover{
+    scale: 1.2;
+}
+.div2:hover{
+    scale: 1.2;
+}
+.headingMain{
+    text-align: center;
+    color: rgb(208, 4, 4);
+    font-style: italic;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+.headingBody{
+    text-align: center;
+}
+.mainHeading{
+    width: 1200px;
+    height: 200px;
+    text-align: center;
+    /* background-color: skyblue; */
+    color: black;
+    margin-left: 20px;
+}
+.div22{
+    font-size: 30px;
+   
+}
+.airPollution{
+    margin-left: 90px;
+}
+.water{
+    margin-left: 100px;
+    font-size:30px ;
+}
+.h1{
+    text-align: center;
+    text-decoration: underline;
+    color: grey;
+}
+.photoGrid img{
+    border-radius: 20px;
+}
+  
+.photoGrid{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr ;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.future{
+    color: red;
+}
+footer{
+    background-color: black;
+    color:rgb(103, 108, 107);
+    padding: 50px;
+    margin-top: 40px;
+  }
+  footer select{
+    background-color: black;
+    color: white;
+    border:none;
+  }
